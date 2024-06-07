@@ -1,0 +1,42 @@
+:root {
+    --bs-pink: #e78091;
+    --bs-dark-pink: #ae4c5c;
+    --ds-font-family: "Roboto", sans-serif; 
+    --bs-heading-1: 60px;
+    --bs-heading-2:24px;
+}
+
+body {
+    font-family: var(--bs-font-family);
+
+}
+h1 {
+    font-size: var(--bs-heading-1);
+}
+h2 {
+    font-size: var(--bs-heading-2);
+}
+
+.btn-custom-pink {
+    background-color: var(--bs-pink); 
+    color: white; 
+    border: 1px solid var(--bs-pink);
+}
+
+.btn-custom-pink:hover {
+    background-color: var(--bs-dark-pink);
+    color: white;
+    border-color: var(--bs-dark-pink);
+}
+
+.btn-outline-pink {
+    background-color: transparent; 
+    color: var(--bs-pink); 
+    border: 2px solid var(--bs-pink);
+}
+
+.btn-outline-pink:hover {
+    background-color: var(--bs-dark-pink);
+    color: white;
+    border-color: var(--bs-dark-pink);
+}
