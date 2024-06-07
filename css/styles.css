@@ -1,24 +1,32 @@
 :root {
     --bs-pink: #e78091;
     --bs-dark-pink: #ae4c5c;
-    --ds-font-family: "Roboto", sans-serif; 
     --bs-heading-1: 60px;
     --bs-heading-2:24px;
 }
 
 body {
-    font-family: var(--bs-font-family);
+  font-family: "Roboto", sans-serif;
 
 }
 h1 {
-    font-size: var(--bs-heading-1);
+    font-size: 72px;
+    font-weight: bolder;
 }
 h2 {
-    font-size: var(--bs-heading-2);
+    font-size: 40px;
+        font-weight:500;
 }
 
+p {
+    font-size: 20px;
+        font-weight: 400;
+    color:rgb(107, 107, 107);
+}
+
+
 .btn-custom-pink {
-    background-color: var(--bs-pink); 
+    background-color: var(--bs-pink) ; 
     color: white; 
     border: 1px solid var(--bs-pink);
 }
