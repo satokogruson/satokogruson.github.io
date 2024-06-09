@@ -1,22 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/56b3f9aebf.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-<link href="./css/styles.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/56b3f9aebf.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./css/styles.css" rel="stylesheet" />
 
     <title>Satoko Gruson's Frontend and UI/UX Design Portfolio</title>
-</head>
-<body>
-        <nav class="navbar navbar-expand-lg bg-body-secondary">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Satoko Gruson</a>
+        <a class="navbar-brand" href="index.html">
+          <img
+            class="img-fluid"
+            src="./img/SG_logo.png"
+            alt=""
+            width="48px"
+            height="48px"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -31,92 +57,210 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="about.html">About Me</a>
+              <a class="nav-link" href="about.html">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="contact.html"
-                >Contact Me</a
-              >
+              <a class="nav-link" href="contact.html">Contact Me</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-<section class="bg-light py-4 py-xxl-5">
-    <div class="container text-center py-5 mb-4">
-      <div class="row justify-content-center">
-        <div class="col-md-12 col-xxl-8">
-          <div class="lc-block text-dark mb-4 "><h1>Hi, I'm Satoko Gruson!</h1></div>
-                   <div class="lc-block text-dark mb-4 "> <h2>I am a UI/UX Designer and Frontend Developer based in Munich, Germany.</h2></div>
-          <div class="lc-block mb-5"><p>My multi-cultural background and a master's in Translation &amp; Localization Management will help you broaden your target audience! &#128522;</p></div>
+    <section class="hero py-4 py-xxl-5">
+      <div class="container text-center py-5 mb-4">
+        <div class="row justify-content-center">
+          <div class="col-md-12 col-xxl-8">
+            <div class="lc-block text-dark mb-4">
+              <h1 class=>Hi, I'm Satoko Gruson!</h1>
+            </div>
+            <div class="lc-block text-dark mb-4">
+              <h2>
+                I am a UI/UX Designer and Frontend Developer based in Munich,
+                Germany.
+              </h2>
+            </div>
+            <div class="lc-block mb-5">
+              <p>
+                My multi-cultural background and a master's in Translation &amp;
+                Localization Management will help you broaden your target
+                audience! &#128522;
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center py-4">
+          <div class="col-md-6 d-flex justify-content-center gap-3">
+            <a href="contact.html" class="btn btn-lg btn-custom-primary">Say Hello!</a>
+            <a href="#" class="btn btn-lg btn-outline-primary">Explore</a>
+          </div>
         </div>
       </div>
-      <div class="row justify-content-center py-4">
-        <div class="col-md-6 d-flex justify-content-center gap-3">
-<a href="#" class="btn btn-lg btn-custom-pink">Say Hello!</a>
-<a href="#" class="btn btn-lg btn-outline-pink">Explore</a>
+    </section>
+
+    <div class="container py-4 py-lg-6 border-top border-black">
+                      <div class="lc-block">
+                    <h3 editable="inline" class="mb-0 lh-lg"><b>About us</b></h3>
+                    <p editable="inline"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et metus id ligula malesuada placerat sit amet quis enim.</p>
+                </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="card shadow p-3">
+            <img
+              class="card-img-top"
+              src="./img/savor_the_globe.png"
+              alt="AI generated world top 5 dishes app"
+              loading="lazy"
+            />
+
+            <div class="card-body">
+              <div class="lc-block text-center mb-3">
+                <div editable="rich">
+                  <h3>Savor the globe</h3>
+                </div>
+                <p class="card-text">
+                  From local favorites to global sensations, find the top five
+                  dishes that define dining around the world.
+                </p>
+              </div>
+              <div class="lc-block text-center">
+                <a href="https://gruson-top-5-dishes.netlify.app/" class="btn btn-custom-primary">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card shadow p-3">
+            <img
+              class="card-img-top"
+              src="./img/world-clock.png"
+              alt="weather app"
+              loading="lazy"
+            />
+
+            <div class="card-body">
+              <div class="lc-block text-center mb-3">
+                <div editable="rich">
+                  <h3>World Clock App</h3>
+                </div>
+                <p class="card-text">
+                  A dynamic tool to view global time zones efficiently. Designed
+                  to improve productivity and global communication.
+                </p>
+              </div>
+              <div class="lc-block text-center">
+                <a href="https://gruson-world-clock.netlify.app/" class="btn btn-custom-primary">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container py-4 py-lg-6">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="card shadow p-3">
+                <img
+                  class="card-img-top"
+                  src="./img/weather-app.png"
+                  alt="AI generated world top 5 dishes app"
+                  loading="lazy"
+                />
+
+                <div class="card-body">
+                  <div class="lc-block text-center mb-3">
+                    <div editable="rich">
+                      <h3>Weather App</h3>
+                    </div>
+                    <p class="card-text">
+                      Get real-time weather updates with this highly interactive
+                      and customizable weather application.
+                    </p>
+                  </div>
+                  <div class="lc-block text-center">
+                    <a href="https://gruson-weather-app.netlify.app/" class="btn btn-custom-primary">View Project</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card shadow p-3">
+                <img
+                  class="card-img-top"
+                  src="./img/sweet-macarons.png"
+                  alt="weather app"
+                  loading="lazy"
+                />
+
+                <div class="card-body">
+                  <div class="lc-block text-center mb-3">
+                    <div editable="rich">
+                      <h3>Sweet Macarons</h3>
+                    </div>
+                    <p class="card-text">
+                      Check out my sweet and tasty Macaron mini-website, my very
+                      first coding project with SheCodes.
+                    </p>
+                  </div>
+                  <div class="lc-block text-center">
+                    <a href="https://gruson-sweet-macarons.netlify.app/" class="btn btn-custom-primary">View Project</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-</section>
-<div class="container py-5">
-    <div class="row justify-content-center gap-5" style="--bs-columns: 3;">
-<div class="card shadow-lg p-3 mb-5  rounded" style="width: 25rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-custom-pink">View Project</a>
-  </div>
-</div>
-<div class="card shadow-lg p-3 mb-5  rounded" style="width: 25rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-custom-pink">View Project</a>
-  </div>
-</div>
-<div class="card shadow-lg p-3 mb-5  rounded" style="width: 25rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-custom-pink">View Project</a>
-  </div>
-</div>
-</div>
-</div>
-<div class="container py-5">
-    <div class="row justify-content-center gap-5" style="--bs-columns: 3;">
-<div class="card shadow-lg p-3 mb-5  rounded" style="width: 25rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-custom-pink">View Project</a>
-  </div>
-</div>
-<div class="card shadow-lg p-3 mb-5  rounded" style="width: 25rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-custom-pink">View Project</a>
-  </div>
-</div>
-<div class="card shadow-lg p-3 mb-5  rounded" style="width: 25rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-custom-pink">View Project</a>
-  </div>
-</div>
-</div>
-</div>
-</body>
+    <section>
+      <div
+        class="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top border-black"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <div class="lc-block text-center mb-3 mb-md-0">
+            <a class="navbar-brand" href="index.html">
+              <img
+                class="img-fluid me-1"
+                src="./img/SG_logo.png"
+                alt="my brand"
+                width="48px"
+                height="48px"
+              />
+            </a>
+
+            <span editable="inline" class="text-muted"
+              >© 2024 Satoko Gruson</span
+            >
+          </div>
+        </div>
+
+        <div class="col-md-4 justify-content-end d-flex gap-3">
+          <div class="lc-block">
+            <a
+              class="mx-3 text-dark"
+              href="https://www.behance.net/satokogruson"
+              aria-label="X"
+              ><i class="bi bi-behance" style="font-size: 1.5rem"></i
+            ></a>
+          </div>
+          <div class="lc-block">
+            <a
+              class="mx-3 text-dark"
+              href="https://github.com/satokogruson"
+              aria-label="X"
+              ><i class="bi bi-github" style="font-size: 1.5rem"></i
+            ></a>
+          </div>
+          <div class="lc-block">
+            <a
+              class="mx-3 text-dark"
+              href="https://www.linkedin.com/in/satokogruson/"
+              aria-label="LinkedIn"
+              ><i class="bi bi-linkedin" style="font-size: 1.5rem"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

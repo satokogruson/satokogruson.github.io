@@ -1,17 +1,23 @@
 :root {
-    --bs-pink: #e78091;
-    --bs-dark-pink: #ae4c5c;
+    --bs-primary: #d41467;
+    --bs-secondary: #f3adc1;
     --bs-heading-1: 60px;
     --bs-heading-2:24px;
+    --bs-background-color:linear-gradient(45deg, #eebdbd 0%, #ffdde1 100%);
 }
 
 body {
   font-family: "Roboto", sans-serif;
+background: var(--bs-background-color);
+color:#231e20;
 
 }
+
+
 h1 {
     font-size: 72px;
     font-weight: bolder;
+    color:#231e20;
 }
 h2 {
     font-size: 40px;
@@ -25,26 +31,30 @@ p {
 }
 
 
-.btn-custom-pink {
-    background-color: var(--bs-pink) ; 
+.btn-custom-primary {
+    background-color: var(--bs-primary) ; 
     color: white; 
-    border: 1px solid var(--bs-pink);
+    border: 1px solid var(--bs-primary);
 }
 
-.btn-custom-pink:hover {
-    background-color: var(--bs-dark-pink);
+.btn-custom-primary:hover {
+    background-color: var(--bs-secondary);
     color: white;
-    border-color: var(--bs-dark-pink);
+    border-color: var(--bs-secondary);
 }
 
-.btn-outline-pink {
+.btn-outline-primary {
     background-color: transparent; 
-    color: var(--bs-pink); 
-    border: 2px solid var(--bs-pink);
+    color: var(--bs-primary); 
+    border: 2px solid var(--bs-primary);
 }
 
-.btn-outline-pink:hover {
-    background-color: var(--bs-dark-pink);
+.btn-outline-primary:hover {
+    background-color: var(--bs-secondary);
     color: white;
-    border-color: var(--bs-dark-pink);
+    border-color: var(--bs-secondary);
 }
+
+/* .card-text {
+    height:8rem;
+} */
