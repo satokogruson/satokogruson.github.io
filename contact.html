@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./css/styles.css" />
     <script
       src="https://kit.fontawesome.com/56b3f9aebf.js"
       crossorigin="anonymous"
@@ -19,16 +18,22 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-<link
+    <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
-    <link rel="stylesheet" href="https://use.typekit.net/mer2ehh.css" />
-    <link href="./css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./css/styles.css" rel="stylesheet" />
     <title>Satoko Gruson's Frontend and UI/UX Design Portfolio About Me</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Satoko Gruson</a>
         <button
@@ -57,7 +62,8 @@
         </div>
       </div>
     </nav>
-    <section class="bg-light">
+    <!-- Content -->
+    <section class="form-container">
       <div class="container py-5">
         <div class="p-5 lc-block">
           <div class="lc-block">
@@ -136,37 +142,56 @@
         </div>
       </div>
     </section>
-           <div class="lc-block text-center pt-3" id="contact-me">
-              <div editable="rich">
-                <p class="text-body-secondary mx-2">
-                    <div class="row d-flex justify-content-center">
-                      <div class="d-flex col-md-12 justify-content-center">
-                        <div class="col-12 col-md-4 text-center mb-2">
-                          <a
-                            class="mx-3 text-dark"
-                            href="https://www.behance.net/satokogruson"
-                            aria-label="X"
-                            ><i class="bi bi-behance" style="font-size: 1.5rem"></i
-                          ></a>
-                          <a
-                            class="mx-3 text-dark"
-                            href="https://github.com/satokogruson"
-                            aria-label="X"
-                            ><i class="bi bi-github" style="font-size: 1.5rem"></i
-                          ></a>
-                          <a
-                            class="mx-3 text-dark"
-                            href="https://www.linkedin.com/in/satokogruson/"
-                            aria-label="LinkedIn"
-                            ><i class="bi bi-linkedin" style="font-size: 1.5rem"></i
-                          ></a>
-                        </div>
-                      </div>
-                    </div>
-©2024 Satoko Gruson. All rights reserved
-                </p>
-              </div>
-            </div>
+    <section class="footer">
+      <div
+        class="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top border-black"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <div class="lc-block text-center mb-3 mb-md-0">
+            <a class="navbar-brand" href="index.html">
+              <img
+                class="img-fluid me-1"
+                src="./img/SG_logo.png"
+                alt="my brand"
+                width="48px"
+                height="48px"
+              />
+            </a>
+
+            <span editable="inline" class="text-muted"
+              >© 2024 Satoko Gruson</span
+            >
+          </div>
+        </div>
+
+        <div class="col-md-4 justify-content-end d-flex gap-3">
+          <div class="lc-block">
+            <a
+              class="mx-3 text-dark"
+              href="https://www.behance.net/satokogruson"
+              aria-label="X"
+              ><i class="bi bi-behance" style="font-size: 1.5rem"></i
+            ></a>
+          </div>
+          <div class="lc-block">
+            <a
+              class="mx-3 text-dark"
+              href="https://github.com/satokogruson"
+              aria-label="X"
+              ><i class="bi bi-github" style="font-size: 1.5rem"></i
+            ></a>
+          </div>
+          <div class="lc-block">
+            <a
+              class="mx-3 text-dark"
+              href="https://www.linkedin.com/in/satokogruson/"
+              aria-label="LinkedIn"
+              ><i class="bi bi-linkedin" style="font-size: 1.5rem"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
 
   </body>
 </html>
