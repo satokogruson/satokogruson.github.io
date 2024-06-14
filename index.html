@@ -18,10 +18,7 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -95,20 +92,15 @@
         </div>
         <div class="row justify-content-center py-4">
           <div class="col-md-6 d-flex justify-content-center gap-5">
-            <a href="contact.html" class="btn btn-lg btn-custom-primary">Say Hello!</a>
-            <a href="#" class="btn btn-lg btn-outline-primary">Explore</a>
+            <a href="index.html#myTab" class="btn btn-lg btn-custom-primary">Check out my work 👇</a>
           </div>
         </div>
       </div>
     </section>
 
-    <div class="container py-4 py-lg-6 border-top border-black">
-                      <div class="lc-block text-center">
-                    <h3 editable="inline" class="mb-0 lh-lg"><b>Works</b></h3>
-                    <p editable="inline">With over a decade of experience in the financial services and healthcare sectors, I am transitioning into the dynamic field of UI/UX design and frontend development. My journey into tech was significantly propelled by my engagement with CareerFoundry UI Design bootcamp and SheCodes, where I not only learned to code but also discovered a passion for designing user-centric digital experiences.</p>
-                </div>
+    <div class="container px-4 py-lg-6">
 
-    <ul class="nav nav-tabs mt-5" id="myTab" role="tablist">
+    <ul class="nav nav-tabs nav-full mt-5" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
             <button class="nav-link active" id="frontend-tab" data-bs-toggle="tab" data-bs-target="#frontend" type="button" role="tab" aria-controls="frontend" aria-selected="true">Frontend</button>
         </li>
@@ -116,8 +108,14 @@
         <li class="nav-item" role="presentation">
             <button class="nav-link" id="uiux-tab" data-bs-toggle="tab" data-bs-target="#uiux" type="button" role="tab" aria-controls="uiux" aria-selected="false">UI/UX</button>
         </li>
-        
+                <li class="nav-item" role="presentation">
+            <button class="nav-link" id="challenges-tab" data-bs-toggle="tab" data-bs-target="#challenges" type="button" role="tab" aria-controls="challenges" aria-selected="false">Challenges</button>
+        </li>
+                <li class="nav-item" role="presentation">
+            <button class="nav-link" id="others-tab" data-bs-toggle="tab" data-bs-target="#others" type="button" role="tab" aria-controls="others" aria-selected="false">Others</button>
+        </li>       
     </ul>
+
     <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade show active" id="frontend" role="tabpanel" aria-labelledby="frontend-tab">
 
@@ -185,7 +183,7 @@
         <div class="tab-pane fade" id="uiux" role="tabpanel" aria-labelledby="uiux-tab">
             <!-- UI/UX Projects Gallery -->
             <div class="row g-4 mb-5">
-<div class="frontend container mt-5">
+<div class="uiux container mt-5">
     <div class="row g-4 mb-5">
         <div class="col-lg-6">
             <div class="card hover-overlay shadow">
@@ -241,13 +239,14 @@
         </div>
     </div>
 </div>
+        </div>
+                </div>
 
+        <div class="tab-pane fade" id="challenges" role="tabpanel" aria-labelledby="challenges-tab">
+          <!-- Frontend Monthly Challenge Gallery -->
+            <div class="row g-4 mb-5">
 
-<!-- Frontend Monthly Challenge Gallery -->
-<div class="tab-pane fade" id="frontend-challenge" role="tabpanel" aria-labelledby="frontend-challenge-tab">
-            <!-- <div class="row g-4 mb-5">
-
-<div class="frontend container mt-5">
+<div class="challenges container mt-5">
     <div class="row g-4 mb-5">
         <div class="col-lg-6">
             <div class="card hover-overlay shadow">
@@ -302,12 +301,76 @@
             </div>
         </div>
     </div>
-</div> -->
+</div>
+            </div>
+                </div>
+       <div class="tab-pane fade" id="others" role="tabpanel" aria-labelledby="others-tab">
+          <!-- Others Gallery -->
+            <div class="row g-4 mb-5">
 
+<div class="challenges container mt-5">
+    <div class="row g-4 mb-5">
+        <div class="col-lg-6">
+            <div class="card hover-overlay shadow">
+                <img class="card-img-top" src="./img/FreshFusion.png" alt="FreshFusion UI Case study" loading="lazy">
+                <div class="card-overlay text-center">
+                    <h3 class="d-inline align-middle">FreshFusion</h3>
+                    <span class="badge rounded-pill align-middle">UI/UX</span>
+                                        <p class="card-text mt-3 text-light">
+                        An e-grocery and meal kit delivery service that differentiates itself from competitors by a strong brand that appeals to busy families and professionals.
+                    </p>
+                    <a href="https://gruson-top-5-dishes.netlify.app/" class="btn btn-custom-primary">View Project</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="card hover-overlay shadow">
+                <img class="card-img-top" src="./img/StuddyBuddy.png" alt="Travel app for the eco-conscious" loading="lazy">
+                <div class="card-overlay text-center">
+                    <h3 class="d-inline align-middle">StudyBuddy</h3>
+                    <span class="badge rounded-pill align-middle">UI/UX</span>
+                                        <p class="card-text mt-3 text-light">
+                       A Study planning app for high school and college students who want to manage their assignments and tasks and collaborate with their peers.
+                    </p>
+                    <a href="https://gruson-world-clock.netlify.app/" class="btn btn-custom-primary">View Project</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="card hover-overlay shadow">
+                <img class="card-img-top" src="./img/findMyDoc.png" alt="Doctor appointment app" loading="lazy">
+                <div class="card-overlay text-center">
+                    <h3 class="d-inline align-middle">findMyDoc</h3>
+                    <span class="badge rounded-pill align-middle">UI/UX</span>
+                                        <p class="card-text mt-3 text-light">
+                    Tired of constantly searching and booking doctor appointments and managing your prescription medications?
+                    </p>
+                    <a href="https://gruson-weather-app.netlify.app/" class="btn btn-custom-primary">View Project</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="card hover-overlay shadow">
+                <img class="card-img-top" src="./img/Traveco.png" alt="Travel booking app for the eco conscious" loading="lazy">
+                <div class="card-overlay text-center">
+                    <h3 class="d-inline align-middle">Traveco</h3>
+                    <span class="badge rounded-pill align-middle">UI/UX</span>
+                                        <p class="card-text mt-3 text-light">
+                        A location-based services travel app for the eco-conscious traveler, who want simple and map-centric navigation.
+                    </p>
+                    <a href="https://gruson-sweet-macarons.netlify.app/" class="btn btn-custom-primary">View Project</a>
+                </div>
             </div>
         </div>
     </div>
 </div>
+            </div>
+        </div>
+    </div>
+        </div>
+
+
+
 
 
 <!-- Footer -->
