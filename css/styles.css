@@ -229,9 +229,9 @@ border:none;
 align-items: center;
 }
 
-.center-img {
+.center-img, .cv {
   width:100px;
-  fill:var(--bs-primary);
+  color:var(--bs-primary);
 }
 
 .contact-form {
