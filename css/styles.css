@@ -149,6 +149,7 @@ p {
   background: black;
   color: white;
   display: flex;
+  padding:5px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -218,6 +219,10 @@ border:none;
     justify-content: center;  /* Center the image horizontally */
     margin-top: 20px;         /* Top margin */
     margin-bottom: 20px;      /* Bottom margin */
+}
+
+.myself {
+  width:15rem;
 }
 
 .img-container {
