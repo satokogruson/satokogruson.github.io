@@ -235,9 +235,18 @@ align-items: center;
 }
 
 .contact-form {
-background-color: #fcdfdc;
+background-color: #faf1f0;
 border-radius: 1%;
 box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.3), -4px -4px 14px rgba(255, 255, 255, 0.3);
+}
+
+.form-control {
+  background-color: #ffffff;
+  border-color: #1c1c1c33;
+}
+
+label {
+  font-weight: 700;
 }
 
 .skills {
