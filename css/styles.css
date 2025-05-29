@@ -164,6 +164,40 @@ p {
   transition-delay: 0s;
 }
 
+
+/* Base overlay text/button sizes */
+.card.hover-overlay .card-overlay h3 {
+  font-size: 1rem;         /* smaller title */
+}
+.card.hover-overlay .card-overlay .badge {
+  font-size: 0.75rem;      /* smaller badge */
+  padding: 0.25em 0.5em;
+}
+.card.hover-overlay .card-overlay p {
+  font-size: 0.85rem;      /* shorter paragraph text */
+  margin-bottom: 0.75rem;
+}
+.card.hover-overlay .card-overlay .btn-custom-primary {
+  font-size: 0.8rem;       /* smaller button text */
+  padding: 0.4rem 0.8rem;  /* tighter button */
+}
+
+/* Further shrink on narrow screens */
+@media (max-width: 576px) {
+  .card.hover-overlay .card-overlay h3 {
+    font-size: 0.9rem;
+  }
+  .card.hover-overlay .card-overlay p {
+    font-size: 0.8rem;
+  }
+  .card.hover-overlay .card-overlay .btn-custom-primary {
+    font-size: 0.75rem;
+    padding: 0.3rem 0.6rem;
+  }
+}
+
+
+
 .nav-tabs {
   background-color: transparent;
   display: flex;
